@@ -23,14 +23,8 @@ namespace PopSnapAndSlide.Navigation
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void Red_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-        }
-
-        private void Blue_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
+            this.DataContext = new MainViewModel();
         }
     }
 }
